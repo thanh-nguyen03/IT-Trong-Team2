@@ -1,3 +1,4 @@
+// Check mobile user
 window.mobileCheck = function () {
   let check = false;
   (function (a) {
@@ -16,6 +17,7 @@ window.mobileCheck = function () {
 if (check)
   alert('Vui lòng xem bằng trình duyệt máy tính để có trải nghiệm tốt nhất <3');
 
+// Animation
 let sub = document.getElementById('sub_hover');
 const hover = () => {
   sub.classList.toggle('sub_hover');
