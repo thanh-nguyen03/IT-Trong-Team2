@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
 :root {
   font-size: 12pt;
@@ -39,12 +41,12 @@ header h1 {
 
 header p {
   font-size: 1rem;
-  font-family: 'Courgette', cursive;
+  font-family: 'Dancing Script', cursive;
 }
 
 .sub {
-  margin-top: 3px;
-  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.7rem;
   text-decoration: bold;
   letter-spacing: 1px;
   transition: all 0.4s ease-in;
@@ -156,6 +158,22 @@ h2 {
   color: cyan;
 }
 
+.bottom {
+  margin-top: 30rem;
+}
+
+.bottom-title {
+  font-size: 2.5rem;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.span-bottom {
+  display: block;
+  margin-top: 3rem;
+  font-size: 4rem;
+}
+
 @media (max-width: 1000px) {
   .card {
     display: flex;
@@ -174,7 +192,7 @@ h2 {
     /* top: 0; */
     left: 0;
     max-width: 100%;
-    height: calc(22 * 58rem);
+    height: calc(20 * 58rem);
     object-fit: cover;
     opacity: 0.7;
     filter: brightness(0.65);
