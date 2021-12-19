@@ -13,6 +13,7 @@
   color: white;
 
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -85,7 +86,7 @@ main {
 
 .card img {
   max-width: 100%;
-  height: 800px;
+  height: 700px;
 
   border-radius: 10px;
 }
@@ -143,6 +144,21 @@ h2 {
 
 .after {
   transform: translateY(-15.06%);
+}
+
+.uptop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+
+  transition: all 0.4s ease;
+}
+
+.uptop:hover {
+  transform: scale(1.1);
+  color: cyan;
 }
 
 @media (max-width: 600px) {
