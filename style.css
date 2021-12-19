@@ -130,7 +130,7 @@ h2 {
   /* top: 0; */
   left: 0;
   max-width: 100%;
-  height: calc(12 * 800px);
+  height: calc(12 * 48rem);
   object-fit: cover;
   opacity: 0.7;
   filter: brightness(0.65);
@@ -174,7 +174,7 @@ h2 {
     /* top: 0; */
     left: 0;
     max-width: 100%;
-    height: calc(22 * 800px);
+    height: calc(22 * 58rem);
     object-fit: cover;
     opacity: 0.7;
     filter: brightness(0.65);
