@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+:root {
+  font-size: 12pt;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #eee;
+}
+
+header {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 8rem;
+  letter-spacing: 5px;
+  font-family: 'Lobster', sans-serif;
+  color: rgb(255, 255, 255);
+  opacity: 0.95;
+}
+
+header p {
+  font-size: 1rem;
+  font-family: 'Courgette', cursive;
+}
+
+.sub {
+  margin-top: 3px;
+  font-size: 1.5rem;
+  text-decoration: bold;
+  letter-spacing: 1px;
+  transition: all 0.4s ease-in;
+  color: cyan;
+}
+
+.sub span {
+  color: cyan;
+  font-size: 1.5rem;
+}
+
+.sub_hover {
+  transform: scale(1.05);
+}
+
+header p a {
+  text-decoration: none;
+  color: rgb(0, 142, 142);
+}
+
+main {
+  max-width: 1300px;
+  margin: 10rem auto;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 2rem;
+  margin-bottom: 20px;
+  /* height: 55vh; */
+}
+
+#second {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  /* grid-gap: 130px; */
+}
+
+.card img {
+  max-width: 100%;
+  height: 800px;
+}
+
+.title {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title p {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  margin-top: 0.8rem;
+  text-align: justify;
+}
+
+h2 {
+  font-family: 'Lobster', sans-serif;
+  font-size: 3.5rem;
+  /* margin-top: 400px; */
+}
+
+#date-of-birth {
+  position: absolute;
+  right: 0px;
+}
+
+#birthday {
+  text-align: center;
+}
+
+/* VIDEO */
+.background-vid {
+  /* transform: rotate(90deg); */
+  /* transform: translateX(-71%); */
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  max-width: 100%;
+  height: 1020vh;
+  object-fit: cover;
+  opacity: 0.7;
+  filter: brightness(0.65);
+  z-index: -10;
+}
+
+.after {
+  transform: translateY(-15.06%);
+}
+
+@media (max-width: 600px) {
+  .card img {
+    width: 500px;
+    height: 600px;
+  }
+}
