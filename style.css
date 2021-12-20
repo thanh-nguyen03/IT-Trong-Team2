@@ -92,6 +92,11 @@ main {
   max-height: 550px;
 }
 
+.unique2 {
+  max-width: 100%;
+  min-height: 800px;
+}
+
 .title {
   position: relative;
 
